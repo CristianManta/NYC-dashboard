@@ -93,50 +93,9 @@ legend = [LegendItem(label="All", renderers=[r_all])]
 p.legend.title = 'Zip code'
 ds1 = r1.data_source
 ds2 = r2.data_source
-# p.legend.items = [LegendItem(label="test2", renderers=[r_all])]
-# r_all = p.line()
-# r2 = p.line()
-# r3 = p.line()
-# ds_all = r_all.data_source
-# ds2 = r2.data_source
-# ds3 = r3.data_source
 
 dropdown1.on_click(handler1)
 dropdown2.on_click(handler2)
 
-# p.line(x, y)
-# r2 = p.line()
-# r3 = p.line()
-
-
 curdoc().add_root(column(dropdown1, dropdown2, p))
 
-#######################################################
-# num_circles = 10
-
-
-# LOAD DATA
-# x = [random()*70 for i in range(num_circles)]
-# y = [random()*70 for i in range(num_circles)]
-
-
-# GENERATE PLOTS
-# p = figure(x_range=(0, 100), y_range = (0, 100))
-# r = p.circle(x, y, size=5)
-
-# HANDLE CALLBACKS ... user interactions
-# ds = r.data_source
-
-# def add_circle():
-#    new_data = {}
-#    new_data['x'] = ds.data['x'] + [random()*70]
-#    new_data['y'] = ds.data['y'] + [random()*70]
-
-#    ds.data = new_data
-
-# create interactive widgets
-# b = Button(label='Add circle')
-# b.on_click(add_circle)
-
-# format/create the document
-# curdoc().add_root(column(b, p))
