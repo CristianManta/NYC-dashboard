@@ -9,6 +9,11 @@ To launch the server, you need to cd into the `dashboard` directory and run
 bash launch_bokeh.sh
 ```
 
+Currently, it is set to run at the following address:
+```
+http://<your-server-ip-address>:8080/nyc_dash?username=nyc&password=iheartnyc
+```
+
 Make sure to modify the ip address in that script so that it matches the one of your server.
 ### Screenshot
 ![example](/figures/example.png)
