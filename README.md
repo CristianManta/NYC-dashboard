@@ -10,3 +10,5 @@ bash launch_bokeh.sh
 ```
 
 Make sure to modify the ip address in that script so that it matches the one of your server.
+### Screenshot
+![example](/figures/example.png)
